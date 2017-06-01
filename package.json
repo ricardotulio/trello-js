@@ -1,21 +1,14 @@
 {
-  "name": "kanban",
+  "name": "trellojs",
   "version": "0.1.0",
-  "description": "Obain Kanban metrics from Trello",
-  "main": "src/app.js",
-  "directories": {
-    "test": "tests"
-  },
+  "description": "",
+  "main": "trello.js",
   "scripts": {
     "build": "babel lib --out-dir dist",
     "test": "nyc jest"
   },
   "keywords": [
-    "trello",
-    "kanban",
-    "leadtime",
-    "cycletime",
-    "cfd"
+    "trello"
   ],
   "author": "Ricardo Ledo de Tulio <ledo.tulio@gmail.com>",
   "license": "GPL-3.0",
