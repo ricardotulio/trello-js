@@ -7,7 +7,7 @@ Super cool library for trello
 First, install it:
 
 ```js
-npm install trellojs
+npm install trello-js
 ```
 
 ## Import
