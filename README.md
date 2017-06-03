@@ -20,7 +20,7 @@ import trello from 'trellojs'
 
 also works using `require`:
 
-```
+```js
 const trello = require('trellojs')
 ```
 
