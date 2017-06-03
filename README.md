@@ -15,19 +15,19 @@ npm install trello-js
 Import like usual: 
 
 ```js
-import trello from 'trellojs'
+import trello from 'trello-js'
 ```
 
 also works using `require`:
 
 ```js
-const trello = require('trellojs')
+const trello = require('trello-js')
 ```
 
 ## Using `connect`
 
 ```js
-import trello from 'trellojs'
+import trello from 'trello-js'
 
 trello.connect({ key: 'TRELLO_APP_KEY', token: 'TRELLO_USER_TOKEN' })
   .then(client => client.boards.all())
