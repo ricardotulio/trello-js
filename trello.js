@@ -1,3 +1,1 @@
-var trello = require('./dist/client.js')
-
-module.exports = trello
+module.exports = require('./dist/client.js').default
