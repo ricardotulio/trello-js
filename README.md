@@ -1,16 +1,40 @@
-# Super cool library for trello
+# Trello.js
+
+Super cool library for trello
+
+## How to use
+
+First, install it:
 
 ```js
-import client from './client'
-
-const credentials = {
-  key: process.env.TRELLO_APP_KEY,
-  token: USER TOKEN HERE
-}
-
-client.connect(credenetials)
-  .then(client => client.boards.all())
-  .then(boards => console.log(boards))
+npm install trellojs
 ```
 
+## Import
 
+Import like usual: 
+
+```js
+import trello from 'trellojs'
+```
+
+also works using `require`:
+
+const trello = require('trellojs')
+
+## Using `connect`
+
+```js
+import trello from 'trellojs'
+
+trello.connect({ key: 'TRELLO_APP_KEY', token: 'TRELLO_USER_TOKEN' })
+  .then(client => client.boards.all())
+```
+
+# Building
+
+To build the library, use `npm run build`. The build is produced in `dist` directory.
+
+# License
+
+The General Public License 3.0 License (GPL)
